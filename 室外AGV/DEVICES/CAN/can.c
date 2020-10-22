@@ -20,7 +20,7 @@
 u16 std_id_01 = 0x0000;
 u32 ext_id_01 = Auto_SteeringFeedBack_ID;//Auto_WheelSpdFeedback_ID | Auto_OdometerFeedback_ID | Auto_DriveFeedBack_ID|Auto_SteeringCmd_ID|Auto_SteeringFeedBack_ID|Auto_DriveFeedBack_ID|Auto_BrakingFeedBack_ID|Auto_PakingFeedBack_ID|Auto_OdometerFeedback_ID|Auto_WheelSpdFeedback_ID|Auto_WheelPulseFeedback_ID|Auto_MileageAndBodyFeedback_ID;
 //u32 mask_01 	= 0x00000000;
-u32 mask_01 	= 0x11111111;
+u32 mask_01 	= 0xffffffff;
 
 u16 std_id_02 = 0x0000;
 u32 ext_id_02 = 0x000f;
